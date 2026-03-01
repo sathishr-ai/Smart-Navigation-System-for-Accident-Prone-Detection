@@ -1,7 +1,7 @@
 <div align="center">
   
-# 🌟 Smart Navigation System
-### Accident-Prone Zone Detection and Safe Route Guidance
+<h1>🌟 Smart Navigation System</h1>
+<h3>Accident-Prone Zone Detection and Safe Route Guidance</h3>
 
 A modern, high-performance web-based navigation platform specifically engineered to prioritize driver safety. It intelligently analyzes multiple environmental and hazard factors—such as high-risk accident zones, real-time severe weather conditions, and proximity to emergency medical facilities—to calculate routes that are secure, balanced, and fast.
 
