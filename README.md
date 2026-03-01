@@ -1,6 +1,7 @@
 <div align="center">
   
 # 🌟 Smart Navigation System
+### Accident-Prone Zone Detection and Safe Route Guidance
 
 A modern, high-performance web-based navigation platform specifically engineered to prioritize driver safety. It intelligently analyzes multiple environmental and hazard factors—such as high-risk accident zones, real-time severe weather conditions, and proximity to emergency medical facilities—to calculate routes that are secure, balanced, and fast.
 
@@ -73,3 +74,9 @@ Because the project strictly uses client-side web technologies and native geogra
 ## 🪪 License
 
 This project is licensed under the [MIT License](./LICENSE) © 2026 [Sathish R].
+
+## 👤 Author
+- Sathish R
+- 📧 Email: [sathxsh57@gmail.com]
+- 🌐 GitHub: https://github.com/sathishr-ai
+- 💼 LinkedIn: www.linkedin.com/in/sathish-r-2393412a5
