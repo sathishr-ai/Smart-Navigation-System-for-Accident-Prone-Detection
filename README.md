@@ -63,7 +63,7 @@ Because the project strictly uses client-side web technologies and native geogra
 ```text
 ├── .gitignore               # Ignored system and cache files
 ├── README.md                # Project documentation
-├── requirements.txt         # Notes on dependencies (Zero required)
+├── requirements.txt         # Data science / Utility script dependencies
 ├── LICENSE                  # MIT License
 ├── index.html               # Main dashboard layout, DOM elements, and Modals
 ├── style.css                # Custom UI styles, theme variables, glassmorphism

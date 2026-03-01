@@ -1,16 +1,19 @@
 # ==============================================================================
-# SafeRoute TN - Base Requirements
+# Smart Navigation System - Environment Requirements
 # ==============================================================================
 # 
 # This core project runs exclusively on standard, native web technologies 
 # (HTML5, CSS3, JavaScript ES6) and relies solely on front-end CDN links 
 # for map dependencies (Leaflet.js).
 # 
-# There are currently NO external Python or Node.js backend packages required 
-# for standard local execution.
+# There are currently NO external backend packages required for standard local execution.
 #
-# Development / Utility Scripts Requirements:
 # ------------------------------------------------------------------------------
-# All Python utility scripts (e.g., apply_modern_theme.py) utilize the 
-# standard Python 3.x library built-in modules ('re', 'os'). No PIP installs 
-# are necessary.
+# Development & Automation Scripts
+# ------------------------------------------------------------------------------
+# The provided Python utility scripts (e.g., apply_modern_theme.py) utilize the 
+# standard Python 3.x library built-in modules. No PIP installs are necessary.
+#
+# Standard Libs Used:
+# - re
+# - os
