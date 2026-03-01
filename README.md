@@ -4,6 +4,12 @@
   <h1>🌟 Smart Navigation System 🌟</h1>
   <p><strong>Accident-Prone Zone Detection and Safe Route Guidance</strong></p>
   
+  <br/>
+
+  [![Live Demo](https://img.shields.io/badge/Live_Demo-Click_Here-success?style=for-the-badge&logo=google-chrome&logoColor=white)](https://sathishr-ai.github.io/Smart-Navigation-System-for-Accident-Prone-Detection/)
+  
+  <br/><br/>
+  
   [![License: MIT](https://img.shields.io/badge/License-MIT-success.svg?style=flat-square)](https://opensource.org/licenses/MIT)
   [![Platform](https://img.shields.io/badge/Platform-Web-primary?style=flat-square)](#)
   [![Stack](https://img.shields.io/badge/Stack-HTML5%20|%20CSS3%20|%20JS-warning?style=flat-square)](#)
@@ -58,7 +64,10 @@ Running the Smart Navigation System natively requires no complex build pipelines
 - Any modern web browser (Google Chrome, Mozilla Firefox, Apple Safari, Microsoft Edge).
 
 ### Installation
-1. Clone or download the repository to your local machine.
+1. Clone or download the repository to your local machine:
+   ```bash
+   git clone https://github.com/sathishr-ai/Smart-Navigation-System-for-Accident-Prone-Detection.git
+   ```
 2. Navigate into the root directory of the project:
    ```bash
    cd "Smart Navigation System"
