@@ -61,6 +61,7 @@ Because the project strictly uses client-side web technologies and native geogra
 ## 📁 File Structure
 
 ```text
+├── outputs/                 # Directory for saving UI screenshots and sample images
 ├── .gitignore               # Ignored system and cache files
 ├── README.md                # Project documentation
 ├── requirements.txt         # Data science / Utility script dependencies
