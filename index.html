@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SafeRoute TN - Real-Time Navigation</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="map"></div>
+
+    <!-- Control Panel -->
+    <div class="control-panel">
+        <div class="search-box-container">
+            <div class="search-field-wrap">
+                <div class="search-input-wrapper">
+                    <i class="fas fa-dot-circle text-primary"></i>
+                    <input type="text" id="start-input" placeholder="Start location" value="Chennai Central"
+                        autocomplete="off">
+                </div>
+                <div id="start-autocomplete" class="autocomplete-dropdown"></div>
+            </div>
+            <button id="swap-locations" class="swap-btn" title="Swap Locations">
+                <i class="fas fa-exchange-alt"></i>
+            </button>
+            <div class="search-field-wrap">
+                <div class="search-input-wrapper">
+                    <i class="fas fa-map-marker-alt text-danger"></i>
+                    <input type="text" id="end-input" placeholder="Destination" value="Coimbatore Junction"
+                        autocomplete="off">
+                </div>
+                <div id="end-autocomplete" class="autocomplete-dropdown"></div>
+            </div>
+            <button class="btn btn-primary w-100" id="find-safest-route" style="margin-top: 10px;">
+                <i class="fas fa-shield-alt"></i> Find Safe Route
+            </button>
+        </div>
+
+        <div class="route-options">
+            <div class="option-group">
+                <label>
+                    <input type="radio" name="route-type" value="safest" checked>
+                    <i class="fas fa-shield-alt" style="color: #27ae60;"></i>
+                    Safest Route
+                </label>
+                <label>
+                    <input type="radio" name="route-type" value="balanced">
+                    <i class="fas fa-balance-scale" style="color: #f39c12;"></i>
+                    Balanced Route
+                </label>
+                <label>
+                    <input type="radio" name="route-type" value="fastest">
+                    <i class="fas fa-bolt" style="color: #e74c3c;"></i>
+                    Fastest Route
+                </label>
+            </div>
+
+            <div class="option-group">
+                <label>
+                    <input type="checkbox" id="avoid-high-risk" checked>
+                    Avoid High Risk Zones
+                </label>
+                <label>
+                    <input type="checkbox" id="consider-weather" checked>
+                    Consider Weather Conditions
+                </label>
+                <label>
+                    <input type="checkbox" id="show-hospitals" checked>
+                    Show Hospitals Nearby
+                </label>
+                <label>
+                    <input type="checkbox" id="show-speed-cameras" checked>
+                    Speed Cameras & Tolls
+                </label>
+                <label>
+                    <input type="checkbox" id="voice-navigation">
+                    Enable Voice Alerts
+                </label>
+            </div>
+        </div>
+
+        <!-- Real-time Monitoring Status -->
+        <div style="margin-top: 15px; padding: 10px; background: #f8f9fa; border-radius: 8px;">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+                <span style="font-weight: 600;">Real-time Monitoring</span>
+                <span class="status-indicator status-live"></span>
+            </div>
+            <div style="font-size: 0.8rem; color: #666;">
+                <div>Weather: <span id="weather-status">Live</span></div>
+                <div>Hospitals: <span id="hospital-status">Monitoring</span></div>
+                <div>Alerts: <span id="alert-status">Active</span></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Driving Mode Panel -->
+    <div class="driving-panel" id="driving-panel">
+        <div class="driving-stats">
+            <div class="driving-stat">
+                <div class="driving-value" id="driving-distance">-</div>
+                <div class="driving-label">Distance Left</div>
+            </div>
+            <div class="driving-stat">
+                <div class="driving-value" id="driving-time">-</div>
+                <div class="driving-label">Time Left</div>
+            </div>
+            <div class="driving-stat">
+                <div class="driving-value" id="driving-weather">-</div>
+                <div class="driving-label">Weather</div>
+            </div>
+            <div class="driving-stat">
+                <div class="driving-value" id="driving-hospitals">-</div>
+                <div class="driving-label">Hospitals Nearby</div>
+            </div>
+            <button class="btn btn-warning" id="stop-navigation" style="padding: 8px 15px;">
+                <i class="fas fa-stop"></i> Stop
+            </button>
+        </div>
+    </div>
+
+    <!-- Real-time Alerts -->
+    <div class="live-alert" id="live-alert">
+        <i class="fas fa-exclamation-triangle"></i>
+        <span id="alert-message">Alert Message</span>
+    </div>
+
+    <div class="weather-alert" id="weather-alert">
+        <i class="fas fa-cloud-rain"></i>
+        <span id="weather-message">Weather Update</span>
+    </div>
+
+    <div class="hospital-alert" id="hospital-alert">
+        <i class="fas fa-hospital"></i>
+        <span id="hospital-message">Hospital Update</span>
+    </div>
+
+    <!-- Info Panel -->
+    <div class="info-panel">
+        <div class="info-tabs">
+            <button class="tab active" data-tab="weather">Weather</button>
+            <button class="tab" data-tab="hospitals">Hospitals</button>
+            <button class="tab" data-tab="risks">Risk Zones</button>
+            <button class="tab" data-tab="alerts">Alerts</button>
+        </div>
+
+        <div class="tab-content active" id="weather-tab">
+            <div class="weather-card">
+                <div class="weather-icon">
+                    <i class="fas fa-sun" id="weather-main-icon"></i>
+                </div>
+                <div class="weather-info">
+                    <h3>Current Weather</h3>
+                    <p>Temperature: <span id="current-temp">28°C</span></p>
+                    <p>Condition: <span id="weather-condition">Clear Sky</span></p>
+                    <p>Visibility: <span id="weather-visibility">10 km</span></p>
+                </div>
+            </div>
+            <div id="weather-updates">
+                <!-- Weather updates will appear here -->
+            </div>
+        </div>
+
+        <div class="tab-content" id="hospitals-tab">
+            <div class="hospital-list" id="hospital-list">
+                <!-- Hospitals will be populated here -->
+            </div>
+        </div>
+
+        <div class="tab-content" id="risks-tab">
+            <div id="risk-zones-list">
+                <!-- Risk zones will be populated here -->
+            </div>
+        </div>
+
+        <div class="tab-content" id="alerts-tab">
+            <div id="alerts-list">
+                <!-- Alerts will be populated here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Map Controls -->
+    <div class="map-controls">
+        <button class="control-btn" id="toggle-dark-mode" title="Toggle Dark Mode">
+            <i class="fas fa-moon"></i>
+        </button>
+        <button class="control-btn" id="locate-me" title="My Location">
+            <i class="fas fa-location-arrow"></i>
+        </button>
+        <button class="control-btn" id="satellite-view" title="Satellite View">
+            <i class="fas fa-satellite"></i>
+        </button>
+        <button class="control-btn" id="emergency-btn" title="Emergency">
+            <i class="fas fa-ambulance"></i>
+        </button>
+        <button class="control-btn" id="report-incident" title="Report Incident">
+            <i class="fas fa-exclamation-triangle"></i>
+        </button>
+    </div>
+
+    <!-- Emergency Panel -->
+    <div class="emergency-panel" id="emergency-panel">
+        <h3 style="margin-bottom: 20px; text-align: center; color: var(--danger);">
+            <i class="fas fa-ambulance"></i> Emergency Contacts
+        </h3>
+        <div class="emergency-contacts">
+            <div class="emergency-contact" onclick="simulateEmergencyCall('Police - 100')">
+                <i class="fas fa-police-box" style="font-size: 1.5rem; margin-bottom: 5px;"></i>
+                <div>Police</div>
+                <div style="font-weight: bold;">100</div>
+            </div>
+            <div class="emergency-contact" onclick="simulateEmergencyCall('Ambulance - 108')">
+                <i class="fas fa-ambulance" style="font-size: 1.5rem; margin-bottom: 5px;"></i>
+                <div>Ambulance</div>
+                <div style="font-weight: bold;">108</div>
+            </div>
+            <div class="emergency-contact" onclick="simulateEmergencyCall('Fire Service - 101')">
+                <i class="fas fa-fire-extinguisher" style="font-size: 1.5rem; margin-bottom: 5px;"></i>
+                <div>Fire Service</div>
+                <div style="font-weight: bold;">101</div>
+            </div>
+            <div class="emergency-contact" onclick="simulateEmergencyCall('Highway Help - 1033')">
+                <i class="fas fa-road" style="font-size: 1.5rem; margin-bottom: 5px;"></i>
+                <div>Highway Help</div>
+                <div style="font-weight: bold;">1033</div>
+            </div>
+        </div>
+        <button class="btn btn-danger" style="width: 100%; margin-top: 15px;" onclick="closeEmergencyPanel()">
+            <i class="fas fa-times"></i> Close
+        </button>
+    </div>
+
+    <!-- Route Summary Modal -->
+    <div class="route-summary-modal" id="route-summary-modal">
+        <h3 style="text-align:center; margin-bottom: 4px;"><i class="fas fa-route"></i> Route Summary</h3>
+        <p style="text-align:center; color: var(--text-secondary); font-size:0.9rem; margin-bottom:16px;"
+            id="summary-route-label">Chennai → Coimbatore</p>
+        <div class="summary-grid">
+            <div class="summary-stat">
+                <div class="summary-stat-value" id="sum-dist">-</div>
+                <div class="summary-stat-label">Distance</div>
+            </div>
+            <div class="summary-stat">
+                <div class="summary-stat-value" id="sum-time">-</div>
+                <div class="summary-stat-label">Duration</div>
+            </div>
+            <div class="summary-stat">
+                <div class="summary-stat-value" id="sum-safety">0/100</div>
+                <div class="summary-stat-label">Safety Score</div>
+            </div>
+        </div>
+        <p style="font-weight:600; margin-bottom:6px;"><i class="fas fa-shield-alt" style="color:var(--success)"></i>
+            Safety Score</p>
+        <div class="safety-bar">
+            <div class="safety-bar-fill" id="safety-bar-fill" style="background: var(--success); width: 0%;"></div>
+        </div>
+        <p style="font-weight:600; margin:14px 0 6px;"><i class="fas fa-list-ul" style="color:var(--primary)"></i>
+            Safety Instructions</p>
+        <div class="instructions-list" id="instructions-list"></div>
+        <div style="display:flex; gap:10px; margin-top:16px;">
+            <button class="btn btn-primary" style="flex:1;" onclick="startFromSummary()"><i class="fas fa-play"></i>
+                Start</button>
+            <button class="btn btn-success" style="flex:1;" onclick="saveToFavorites()"><i class="fas fa-star"></i>
+                Save</button>
+            <button class="btn btn-danger" style="padding: 14px;"
+                onclick="document.getElementById('route-summary-modal').classList.remove('active')"><i
+                    class="fas fa-times"></i></button>
+        </div>
+    </div>
+
+    <!-- Favorites Panel -->
+    <div class="favorites-panel" id="favorites-panel">
+        <h4 style="margin-bottom:14px;"><i class="fas fa-star" style="color:var(--warning)"></i> Saved Routes</h4>
+        <div id="favorites-list">
+            <p style="color:var(--text-secondary); font-size:0.85rem;">No saved routes yet.</p>
+        </div>
+        <button class="btn btn-danger" style="width:100%; margin-top:12px; padding:10px;"
+            onclick="document.getElementById('favorites-panel').classList.remove('active')"><i class="fas fa-times"></i>
+            Close</button>
+    </div>
+
+    <!-- Voice Assistant Panel -->
+    <div class="voice-panel" id="voice-panel">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:14px;">
+            <h4><i class="fas fa-microphone" style="color:var(--primary)"></i> Voice Assistant</h4>
+            <span id="voice-output"
+                style="font-size:0.85rem; color:var(--text-secondary); font-style:italic;">Ready...</span>
+        </div>
+        <div class="voice-status">
+            <div class="mic-wave paused" id="mic-wave"><span></span><span></span><span></span><span></span><span></span>
+            </div>
+            <span id="voice-listening-label">Click a command to speak</span>
+        </div>
+        <div class="voice-btn-row">
+            <button class="voice-cmd-btn"
+                onclick="voiceSpeak('Starting navigation. Drive safely and follow the route.')"><i
+                    class="fas fa-play"></i> Start Nav</button>
+            <button class="voice-cmd-btn"
+                onclick="voiceSpeak('Weather alert. Current condition is ' + currentWeather.condition + '. Temperature is ' + currentWeather.temperature + ' degrees celsius.')"><i
+                    class="fas fa-cloud"></i> Weather</button>
+            <button class="voice-cmd-btn" onclick="speakHospitals()"><i class="fas fa-hospital"></i> Hospitals</button>
+        </div>
+        <div class="voice-btn-row">
+            <button class="voice-cmd-btn"
+                onclick="voiceSpeak('Emergency services: Police 100. Ambulance 108. Fire Service 101. Highway Help 1033.')"><i
+                    class="fas fa-phone"></i> Emergency</button>
+            <button class="voice-cmd-btn" onclick="speakRouteInfo()"><i class="fas fa-route"></i> Route Info</button>
+            <button class="voice-cmd-btn"
+                onclick="voiceSpeak('Destination reached. You have arrived safely. Have a great day.')"><i
+                    class="fas fa-flag"></i> Arrival</button>
+        </div>
+    </div>
+
+    <!-- Speedometer HUD -->
+    <div class="speedometer-hud" id="speedometer-hud">
+        <div class="speed-value" id="hud-speed">0</div>
+        <div class="speed-unit">km/h</div>
+        <div class="speed-limit-badge">Limit: 80</div>
+    </div>
+
+    <!-- Trip Timer -->
+    <div class="trip-timer" id="trip-timer">
+        <div class="timer-dot"></div>
+        <span>Trip Time: </span><span id="timer-display">00:00:00</span>
+    </div>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
