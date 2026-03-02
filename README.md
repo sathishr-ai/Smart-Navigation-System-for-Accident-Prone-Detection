@@ -5,15 +5,14 @@
 
 A high-performance web navigation platform that prioritizes driver safety by analyzing accident-prone zones, real-time weather risk, and emergency proximity — delivering safety-focused route suggestions.
 
-[![Live Demo](https://img.shields.io/badge/🔵_Try_Live_Demo_→-%232563EB?style=for-the-badge)](https://sathishr-ai.github.io/Smart-Navigation-System-for-Accident-Prone-Detection/)
+[![Live Demo](https://img.shields.io/badge/🔵_Try_Live_Demo_→-%2316A34A?style=for-the-badge)](https://sathishr-ai.github.io/Smart-Navigation-System-for-Accident-Prone-Detection/)
 <br/><br/>
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) 
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) 
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![Leaflet](https://img.shields.io/badge/Leaflet-199900?style=for-the-badge&logo=Leaflet&logoColor=white)
-[![Status](https://img.shields.io/badge/Status-Active-%2310B981?style=flat-square)](#)
 [![Platform](https://img.shields.io/badge/Platform-Web-%236366F1?style=flat-square)](#)
-[![Stack](https://img.shields.io/badge/Stack-HTML5%20|%20CSS3%20|%20JS-%238B5CF6?style=flat-square)](#)
+[![Status](https://img.shields.io/badge/Status-Active-%2310B981?style=flat-square)](#)
 </div>
 
 ## ✨ Premium Features
