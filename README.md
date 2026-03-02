@@ -5,7 +5,7 @@
 
 A high-performance web navigation platform that prioritizes driver safety by analyzing accident-prone zones, real-time weather risk, and emergency proximity — delivering safety-focused route suggestions.
 
-[![Live Demo](https://img.shields.io/badge/Try_Live_Demo_→-%2316A34A?style=for-the-badge)](https://sathishr-ai.github.io/Smart-Navigation-System-for-Accident-Prone-Detection/)
+[![Live Demo](https://img.shields.io/badge/_⚡_Try_Live_Demo_→-%2316A34A?style=for-the-badge)](https://sathishr-ai.github.io/Smart-Navigation-System-for-Accident-Prone-Detection/)
 <br/><br/>
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) 
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) 
