@@ -10,9 +10,9 @@ A high-performance web navigation platform that prioritizes driver safety by ana
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) 
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) 
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![Leaflet](https://img.shields.io/badge/Leaflet-199900?style=for-the-badge&logo=Leaflet&logoColor=white)
-[![Platform](https://img.shields.io/badge/Platform-Web-%236366F1?style=flat-square)](#)
-[![Status](https://img.shields.io/badge/Status-Active-%2310B981?style=flat-square)](#)
+![Leaflet](https://img.shields.io/badge/Leaflet-%238B5CF6?style=for-the-badge&logo=Leaflet&logoColor=white)
+[![Platform](https://img.shields.io/badge/Platform-Web-%236366F1?style=for-the-badge)](#)
+[![Status](https://img.shields.io/badge/Status-Active-%2310B981?style=for-the-badge)](#)
 </div>
 
 ## ✨ Premium Features
