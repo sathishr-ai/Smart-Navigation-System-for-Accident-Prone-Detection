@@ -3,7 +3,7 @@
 <h1>🛡️ Smart Navigation System</h1>
 <h3>Accident-Prone Zone Detection & Safe Route Guidance</h3>
 
-A high-performance web navigation platform that prioritizes driver safety by analyzing accident-prone zones, real-time weather risk, and emergency proximity — delivering optimized, safer route recommendations.
+A high-performance web navigation platform that prioritizes driver safety by analyzing accident-prone zones, real-time weather risk, and emergency proximity — delivering safety-focused route suggestions.
 
 [![Live Demo](https://img.shields.io/badge/🔵_Try_Live_Demo_→-success?style=for-the-badge&logoColor=white)](https://sathishr-ai.github.io/Smart-Navigation-System-for-Accident-Prone-Detection/)
 <br/><br/>
