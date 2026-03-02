@@ -12,6 +12,8 @@ A modern, high-performance web-based navigation platform specifically engineered
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![Leaflet](https://img.shields.io/badge/Leaflet-199900?style=for-the-badge&logo=Leaflet&logoColor=white)
 [![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)](#)
+[![Platform](https://img.shields.io/badge/Platform-Web-primary?style=flat-square)](#)
+[![Stack](https://img.shields.io/badge/Stack-HTML5%20|%20CSS3%20|%20JS-warning?style=flat-square)](#)
 </div>
 
 ## ✨ Premium Features
