@@ -185,33 +185,47 @@ python -m http.server 8000
 
 <br><br>
 
-<!-- Elite Engineering Footer -->
-<div align="center" style="background: linear-gradient(135deg, #0F172A 0%, #080C17 100%); border: 1px solid #1E293B; border-radius: 12px; padding: 45px; margin-top: 50px; box-shadow: 0 10px 30px rgba(0,0,0,0.4);">
+<!-- Ultimate Engineering Signature -->
+<div align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%">
+</div>
+<br><br>
+
+<div align="center">
+  <a href="https://sathishdev.vercel.app/">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&duration=4000&pause=2000&color=3B82F6&center=true&vCenter=true&width=600&lines=SATHISH+R;DATA+SCIENTIST+%7C+AI+ARCHITECT" alt="Sathish R Signature" />
+  </a>
   
-  <h2 style="margin: 0; color: #3B82F6; font-size: 24px; letter-spacing: 2px;">ARCHITECTED BY SATHISH R</h2>
-  <p style="color: #94A3B8; font-size: 15px; max-width: 650px; line-height: 1.7; margin-top: 15px;">
-    <b>Data Scientist & AI Architect</b><br>
-    Specializing in high-performance probabilistic models, resilient machine learning pipelines, and highly scalable geographic logic environments.
+  <p style="color: #94A3B8; font-size: 16px; margin-top: 10px; max-width: 650px; line-height: 1.6;">
+    <em>Building high-performance probabilistic models, resilient data pipelines, and highly scalable geographic architectures.</em>
   </p>
   
   <br>
 
   <a href="https://sathishdev.vercel.app/">
-    <img src="https://img.shields.io/badge/Deploy_Full_Portfolio-%233B82F6?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
+    <img src="https://img.shields.io/badge/Deploy_Portfolio-%23000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
   </a>
-  &nbsp;
+  &nbsp;&nbsp;&nbsp;
   <a href="https://www.linkedin.com/in/sathish-r-2393412a5">
-    <img src="https://img.shields.io/badge/Connect_on_LinkedIn-%230077b5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn_Network-%230077b5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  &nbsp;
+  &nbsp;&nbsp;&nbsp;
   <a href="mailto:sathxsh57@gmail.com">
-    <img src="https://img.shields.io/badge/sathxsh57@gmail.com-%23ea4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    <img src="https://img.shields.io/badge/Contact_Engineering-%23ea4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
 
   <br><br><br>
-
+  
   <img src="https://img.shields.io/badge/Status-Open_to_Senior_Engineering_Roles-1E293B?style=flat-square" />
-  <br>
-  <p style="font-size: 12px; color: #475569; margin-top: 20px;">© 2026 Sathish R | Engineered for minimal latency and maximum impact.</p>
+  
+  <br><br>
+  <p style="font-size: 13px; color: #475569; letter-spacing: 1px;">
+    <b>© 2026 SATHISH R</b><br>
+    Engineered for precision. Built for impact.
+  </p>
 </div>
 
+<br><br>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%">
+</div>
