@@ -50,6 +50,7 @@
     <li><a href="#-routing-logic-showcase">Routing Logic Showcase</a></li>
     <li><a href="#-technical-arsenal">Technical Arsenal</a></li>
     <li><a href="#-project-directory">Project Directory</a></li>
+    <li><a href="#-open-source-contribution">Open Source Contribution</a></li>
   </ol>
 </details>
 
@@ -190,17 +191,17 @@ function calculateRouteRisk(pathCoordinates, liveWeather) {
       </td>
     </tr>
     <tr>
-      <td align="center" style="padding: 20px; border-right: 1px solid #1E293B;">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/1/13/Leaflet_logo.svg" width="90" height="45" alt="Leaflet.js" />
-        <br><b style="color:#F1F5F9;">Leaflet.js Engine</b>
+      <td align="center" style="padding: 25px; border-right: 1px solid #1E293B;">
+        <img src="https://img.shields.io/badge/Leaflet.js-199900?style=for-the-badge&logo=Leaflet&logoColor=white" width="130" alt="Leaflet.js" />
+        <br><br><b style="color:#F1F5F9;">Leaflet.js Engine</b>
       </td>
-      <td align="center" style="padding: 20px; border-right: 1px solid #1E293B;">
+      <td align="center" style="padding: 25px; border-right: 1px solid #1E293B;">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="45" height="45" alt="Git" />
-        <br><b style="color:#F1F5F9;">Git VCS</b>
+        <br><br><b style="color:#F1F5F9;">Git VCS</b>
       </td>
-      <td align="center" style="padding: 20px;">
+      <td align="center" style="padding: 25px;">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="45" height="45" alt="VS Code" />
-        <br><b style="color:#F1F5F9;">VS Code IDE</b>
+        <br><br><b style="color:#F1F5F9;">VS Code IDE</b>
       </td>
     </tr>
   </table>
@@ -221,13 +222,42 @@ function calculateRouteRisk(pathCoordinates, liveWeather) {
  ┣ 📂 outputs/                 # Application Dashboard UI assets
  ┃ ┣ 📜 dashboard.webp         # Core Interface Preview
  ┣ 📜 .gitignore               # System cache and environment exclusions
- ┣ 📜 README.md                # Enterprise System Documentation
+ ┣ 📜 README.md                # Enterprise System Documentation (You are here)
  ┣ 📜 requirements.txt         # Data science mapping dependencies
  ┣ 📜 LICENSE                  # MIT Open Source License
  ┣ 📜 index.html               # Main dashboard DOM layout & geographic canvases
  ┣ 📜 style.css                # Glassmorphic UI theme & variables
  ┗ 📜 script.js                # Core JS Logic: Map routing, live updates & simulation
 ```
+
+<br>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%">
+</div>
+<br>
+
+<div align="center">
+  <h2 id="-open-source-contribution">🤝 Open Source Contribution</h2>
+  <p style="color: #94A3B8;"><em>We welcome elite engineers to help us scale the future of global road safety.</em></p>
+  <br>
+  <img src="https://img.shields.io/badge/Contributions-Welcome-3B82F6?style=for-the-badge" alt="Contributions Welcome" />
+  <br><br>
+  <p>Please read our <b>CONTRIBUTING.md</b> for details on our code of conduct, and the process for submitting pull requests to us. We operate on a strict CI/CD pipeline and expect high test coverage for all geospatial logic submissions.</p>
+</div>
+
+<br>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%">
+</div>
+<br>
+
+<div align="center">
+  <h2 id="-repository-metrics">📈 Enterprise Activity</h2>
+  <br>
+  <a href="https://star-history.com/#sathishr-ai/Smart-Navigation-System-for-Accident-Prone-Detection&Date">
+    <img src="https://api.star-history.com/svg?repos=sathishr-ai/Smart-Navigation-System-for-Accident-Prone-Detection&type=Date&theme=dark" alt="Star History Chart" width="80%">
+  </a>
+</div>
 
 <br>
 <div align="center">
@@ -251,7 +281,7 @@ function calculateRouteRisk(pathCoordinates, liveWeather) {
 
   <br><br><br>
 
-  <img src="https://img.shields.io/badge/Enterprise_Architecture_7.0-Deployed-3B82F6?style=flat-square" />
+  <img src="https://img.shields.io/badge/Enterprise_Architecture_8.0-Deployed-3B82F6?style=flat-square" />
   <br>
   <p>⭐ <i>"Intelligence powering human safety."</i></p>
   <p style="font-size: 12px; color: #64748B;">© 2026 Sathish R | Licensed under MIT</p>
