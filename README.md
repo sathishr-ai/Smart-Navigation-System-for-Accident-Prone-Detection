@@ -185,19 +185,19 @@ python -m http.server 8000
 
 <br><br>
 
-<!-- Elite Author Section -->
-<div align="center" style="background: linear-gradient(180deg, #0F172A 0%, #080C17 100%); border: 1px solid #1E293B; border-radius: 20px; padding: 50px; margin-top: 40px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
-  <img src="https://github.com/sathishr-ai.png" width="100" style="border-radius: 50%; border: 3px solid #3B82F6; box-shadow: 0 0 20px rgba(59, 130, 246, 0.4); margin-bottom: 15px;" alt="Sathish R Profile" />
+<!-- Elite Engineering Footer -->
+<div align="center" style="background: linear-gradient(135deg, #0F172A 0%, #080C17 100%); border: 1px solid #1E293B; border-radius: 12px; padding: 45px; margin-top: 50px; box-shadow: 0 10px 30px rgba(0,0,0,0.4);">
   
-  <h2 style="margin: 0; color: #F1F5F9; font-size: 28px; letter-spacing: 1px;">Architected by Sathish R</h2>
-  <p style="color: #94A3B8; font-size: 16px; max-width: 600px; line-height: 1.6; margin-top: 10px;">
-    Data Scientist & AI Architect specializing in high-performance probabilistic systems, robust ML pipelines, and scalable geographic logic environments.
+  <h2 style="margin: 0; color: #3B82F6; font-size: 24px; letter-spacing: 2px;">ARCHITECTED BY SATHISH R</h2>
+  <p style="color: #94A3B8; font-size: 15px; max-width: 650px; line-height: 1.7; margin-top: 15px;">
+    <b>Data Scientist & AI Architect</b><br>
+    Specializing in high-performance probabilistic models, resilient machine learning pipelines, and highly scalable geographic logic environments.
   </p>
   
   <br>
 
-  <a href="https://sathishr-ai.github.io/My-Data-Analytics-Portfolio/">
-    <img src="https://img.shields.io/badge/🌐_Deploy_Full_Portfolio-%231E293B?style=for-the-badge&color=0F172A" alt="Portfolio" />
+  <a href="https://sathishdev.vercel.app/">
+    <img src="https://img.shields.io/badge/Deploy_Full_Portfolio-%233B82F6?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
   </a>
   &nbsp;
   <a href="https://www.linkedin.com/in/sathish-r-2393412a5">
@@ -210,8 +210,8 @@ python -m http.server 8000
 
   <br><br><br>
 
-  <img src="https://img.shields.io/badge/Open_to_Senior_Engineering_Roles-3B82F6?style=flat-square" />
+  <img src="https://img.shields.io/badge/Status-Open_to_Senior_Engineering_Roles-1E293B?style=flat-square" />
   <br>
-  <p style="font-size: 13px; color: #475569; margin-top: 15px;">© 2026 Sathish R | Designed for minimal latency, maximum impact.</p>
+  <p style="font-size: 12px; color: #475569; margin-top: 20px;">© 2026 Sathish R | Engineered for minimal latency and maximum impact.</p>
 </div>
 
