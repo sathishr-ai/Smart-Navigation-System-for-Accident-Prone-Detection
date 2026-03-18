@@ -1,33 +1,12 @@
-<!-- Premium Header Section -->
+<!-- Ultra-Premium Header -->
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=soft&color=0F172A&height=150&section=header&text=Smart%20Navigation%20System&fontSize=50&fontColor=3B82F6&animation=fadeIn&fontAlignY=40" alt="Header" width="100%"/>
   <br>
   
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=60A5FA&center=true&vCenter=true&width=700&lines=Accident-Prone+Zone+Detection;Dynamic+Safe+Route+Architecture;Live+Environmental+Telemetry" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=60A5FA&center=true&vCenter=true&width=700&lines=Accident-Prone+Zone+Detection;Dynamic+Safe+Route+Architecture;Live+Environmental+Telemetry" alt="Typing SVG" />
   </a>
   <br><br>
-
-  <!-- Repository Health Shields -->
-  <div>
-    <a href="https://github.com/sathishr-ai/Smart-Navigation-System-for-Accident-Prone-Detection/graphs/contributors">
-      <img src="https://img.shields.io/github/contributors/sathishr-ai/Smart-Navigation-System-for-Accident-Prone-Detection.svg?style=for-the-badge&color=0F172A" alt="Contributors" />
-    </a>
-    <a href="https://github.com/sathishr-ai/Smart-Navigation-System-for-Accident-Prone-Detection/network/members">
-      <img src="https://img.shields.io/github/forks/sathishr-ai/Smart-Navigation-System-for-Accident-Prone-Detection.svg?style=for-the-badge&color=1E293B" alt="Forks" />
-    </a>
-    <a href="https://github.com/sathishr-ai/Smart-Navigation-System-for-Accident-Prone-Detection/stargazers">
-      <img src="https://img.shields.io/github/stars/sathishr-ai/Smart-Navigation-System-for-Accident-Prone-Detection.svg?style=for-the-badge&color=0F172A" alt="Stargazers" />
-    </a>
-    <a href="https://github.com/sathishr-ai/Smart-Navigation-System-for-Accident-Prone-Detection/issues">
-      <img src="https://img.shields.io/github/issues/sathishr-ai/Smart-Navigation-System-for-Accident-Prone-Detection.svg?style=for-the-badge&color=1E293B" alt="Issues" />
-    </a>
-    <a href="https://github.com/sathishr-ai/Smart-Navigation-System-for-Accident-Prone-Detection/blob/master/LICENSE">
-      <img src="https://img.shields.io/github/license/sathishr-ai/Smart-Navigation-System-for-Accident-Prone-Detection.svg?style=for-the-badge&color=3B82F6" alt="License" />
-    </a>
-  </div>
-  
-  <br>
 
   [![Live Demo](https://img.shields.io/badge/🔵_Live_Demo_Environment-%231E293B?style=for-the-badge&logo=codeforces&logoColor=3B82F6)](https://sathishr-ai.github.io/Smart-Navigation-System-for-Accident-Prone-Detection/)
   [![GitHub](https://img.shields.io/badge/Source_Code-%231E293B?style=for-the-badge&logo=github&logoColor=white)](#)
@@ -39,20 +18,13 @@
 </div>
 <br>
 
-<!-- Table of Contents -->
-<details open>
-  <summary><b>📑 Table of Contents</b></summary>
-  <ol>
-    <li><a href="#-the-crisis--the-solution">The Crisis & The Solution</a></li>
-    <li><a href="#-executive-telemetry">Executive Telemetry</a></li>
-    <li><a href="#-core-intelligence-dashboard">Core Intelligence Dashboard</a></li>
-    <li><a href="#-algorithmic-data-pipeline">Algorithmic Data Pipeline</a></li>
-    <li><a href="#-routing-logic-showcase">Routing Logic Showcase</a></li>
-    <li><a href="#-technical-arsenal">Technical Arsenal</a></li>
-    <li><a href="#-project-directory">Project Directory</a></li>
-    <li><a href="#-open-source-contribution">Open Source Contribution</a></li>
-  </ol>
-</details>
+<!-- Strategic Overview -->
+<div align="center">
+  <h2 style="color: #3B82F6;">🌍 The Architecture of Safety</h2>
+  <p style="color: #94A3B8; max-width: 800px; font-size: 16px; line-height: 1.6;">
+    Traditional navigation optimizes purely for speed. This geographic engine introduces a paradigm shift: aggregating historical crash telemetry and live atmospheric data to dynamically score physical paths. If a route crosses an active risk threshold, it aggressively auto-corrects to <b>prioritize driver survivability over estimated time of arrival</b>.
+  </p>
+</div>
 
 <br>
 <div align="center">
@@ -60,38 +32,22 @@
 </div>
 <br>
 
-<!-- Thesis Section -->
+<!-- Executive Metrics -->
 <div align="center">
-  <h2 id="-the-crisis--the-solution">🌍 The Crisis & The Solution</h2>
-</div>
-<blockquote style="border-left: 4px solid #3B82F6; padding-left: 15px; color: #cbd5e1; background-color: #0F172A; padding: 20px; border-radius: 8px;">
-  <b>The Problem:</b> Road traffic crashes cause nearly 1.35 million deaths globally each year. Traditional navigation applications optimize exclusively for speed, routinely directing drivers into known high-density accident zones or severe weather conditions under the guise of "efficiency."
-  <br><br>
-  <b>Our Architecture:</b> A paradigm shift in geographic routing. This engine aggregates historical crash telemetry and live atmospheric data to dynamically score physical paths. If a route crosses an active risk threshold, it aggressively auto-corrects to prioritize <b>driver survivability over estimated time of arrival</b>.
-</blockquote>
-
-<br>
-<div align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%">
-</div>
-<br>
-
-<!-- Executive Metrics Strip -->
-<div align="center">
-  <h2 id="-executive-telemetry">📊 Executive Telemetry</h2><br>
+  <h2>📊 Executive Telemetry</h2><br>
   <table width="100%" style="border-collapse: collapse; border: 1px solid #1E293B; border-radius: 12px; background: linear-gradient(135deg, #0F172A 0%, #172033 100%);">
     <tr>
-      <td align="center" style="padding: 25px; border-right: 1px solid #1E293B;">
-        <h2 style="margin: 0; color: #3B82F6; font-size: 32px;"><0.1s</h2>
-        <p style="margin: 5px 0 0 0; font-size: 13px; font-weight: 600; text-transform: uppercase; color: #94A3B8; letter-spacing: 1px;">Route Latency</p>
+      <td align="center" style="padding: 30px; border-right: 1px solid #1E293B;">
+        <h2 style="margin: 0; color: #3B82F6; font-size: 36px;"><0.1s</h2>
+        <p style="margin: 5px 0 0 0; font-size: 13px; font-weight: 600; text-transform: uppercase; color: #94A3B8; letter-spacing: 1.5px;">Route Latency</p>
       </td>
-      <td align="center" style="padding: 25px; border-right: 1px solid #1E293B;">
-        <h2 style="margin: 0; color: #3B82F6; font-size: 32px;">98%</h2>
-        <p style="margin: 5px 0 0 0; font-size: 13px; font-weight: 600; text-transform: uppercase; color: #94A3B8; letter-spacing: 1px;">Safety Precision</p>
+      <td align="center" style="padding: 30px; border-right: 1px solid #1E293B;">
+        <h2 style="margin: 0; color: #3B82F6; font-size: 36px;">98%</h2>
+        <p style="margin: 5px 0 0 0; font-size: 13px; font-weight: 600; text-transform: uppercase; color: #94A3B8; letter-spacing: 1.5px;">Safety Precision</p>
       </td>
-      <td align="center" style="padding: 25px;">
-        <h2 style="margin: 0; color: #3B82F6; font-size: 32px;">LIVE</h2>
-        <p style="margin: 5px 0 0 0; font-size: 13px; font-weight: 600; text-transform: uppercase; color: #94A3B8; letter-spacing: 1px;">Risk Overlays</p>
+      <td align="center" style="padding: 30px;">
+        <h2 style="margin: 0; color: #3B82F6; font-size: 36px;">LIVE</h2>
+        <p style="margin: 5px 0 0 0; font-size: 13px; font-weight: 600; text-transform: uppercase; color: #94A3B8; letter-spacing: 1.5px;">Risk Overlays</p>
       </td>
     </tr>
   </table>
@@ -100,7 +56,7 @@
 <br>
 
 <div align="center">
-  <h2 id="-core-intelligence-dashboard">🛰️ Core Intelligence Dashboard</h2>
+  <h2>🛰️ Core Intelligence Dashboard</h2>
   <br>
   <img src="outputs/dashboard.webp" width="95%" alt="Dashboard Interface Mockup" style="border-radius: 16px; border: 1px solid #1E293B; box-shadow: 0 10px 40px rgba(0,0,0,0.6);"/>
 </div>
@@ -112,8 +68,8 @@
 <br>
 
 <div align="center">
-  <h2 id="-algorithmic-data-pipeline">⚡ Algorithmic Data Pipeline</h2>
-  <p style="color: #94A3B8;"><em>A high-performance processing engine converting raw telemetry into safe routing logic.</em></p>
+  <h2>⚡ Algorithmic Data Pipeline</h2>
+  <p style="color: #94A3B8;"><em>High-performance engine mapping raw telemetry into safe routing logic.</em></p>
 </div>
 
 ```mermaid
@@ -137,27 +93,26 @@ graph TD;
 <br>
 
 <div align="center">
-  <h2 id="-routing-logic-showcase">🧠 Routing Logic Showcase</h2>
-  <p style="color: #94A3B8;"><em>Underlying spatial risk evaluation snippet defining dynamic constraint variables.</em></p>
+  <h2>🧠 Routing Logic Engine</h2>
+  <p style="color: #94A3B8;"><em>The mathematical constraint model evaluating hazard survivability.</em></p>
 </div>
 
 ```javascript
 /**
  * Dynamic Risk Scoring Algorithm
- * Evaluates path safety using historical crash density and live weather metrics.
  * Prioritizes survival probability over ETA optimizations.
  */
 function calculateRouteRisk(pathCoordinates, liveWeather) {
     let aggregateRisk = 0;
     
     pathCoordinates.forEach(node => {
-        // 1. Fetch precise historical incident volume
+        // Fetch precise historical incident volume
         const incidentDensity = queryAccidentDatabase[node.lat][node.lng];
         
-        // 2. Fetch atmospheric traction modifiers
+        // Fetch atmospheric traction modifiers
         const weatherMultiplier = getTractionPenalty(liveWeather);
         
-        // 3. Scale risk exponentially for highly dangerous combined nodes
+        // Scale risk exponentially for highly dangerous combined nodes
         aggregateRisk += (incidentDensity * Math.pow(weatherMultiplier, 1.5));
     });
 
@@ -172,36 +127,36 @@ function calculateRouteRisk(pathCoordinates, liveWeather) {
 <br>
 
 <div align="center">
-  <h2 id="-technical-arsenal">🛠️ Technical Arsenal</h2>
+  <h2>🛠️ Technical Arsenal</h2>
   <br>
   
-  <table width="100%" style="background-color: #0F172A; border-collapse: collapse; border: 1px solid #1E293B;">
+  <table width="100%" style="background-color: #0F172A; border-collapse: collapse; border: 1px solid #1E293B; border-radius: 16px; overflow: hidden;">
     <tr>
-      <td align="center" style="padding: 20px; border-right: 1px solid #1E293B; border-bottom: 1px solid #1E293B;">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="45" height="45" alt="JavaScript" />
-        <br><b style="color:#F1F5F9;">JavaScript ES6+</b>
+      <td align="center" style="padding: 25px; border-right: 1px solid #1E293B; border-bottom: 1px solid #1E293B;">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="50" height="50" alt="JavaScript" />
+        <br><br><b style="color:#F1F5F9; font-size:14px;">JavaScript ES6+</b>
       </td>
-      <td align="center" style="padding: 20px; border-right: 1px solid #1E293B; border-bottom: 1px solid #1E293B;">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="45" height="45" alt="HTML5" />
-        <br><b style="color:#F1F5F9;">HTML5 Native</b>
+      <td align="center" style="padding: 25px; border-right: 1px solid #1E293B; border-bottom: 1px solid #1E293B;">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="50" height="50" alt="HTML5" />
+        <br><br><b style="color:#F1F5F9; font-size:14px;">HTML5 Native</b>
       </td>
-      <td align="center" style="padding: 20px; border-bottom: 1px solid #1E293B;">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="45" height="45" alt="CSS3" />
-        <br><b style="color:#F1F5F9;">CSS3 Animations</b>
+      <td align="center" style="padding: 25px; border-bottom: 1px solid #1E293B;">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="50" height="50" alt="CSS3" />
+        <br><br><b style="color:#F1F5F9; font-size:14px;">CSS3 Architecture</b>
       </td>
     </tr>
     <tr>
       <td align="center" style="padding: 25px; border-right: 1px solid #1E293B;">
         <img src="https://img.shields.io/badge/Leaflet.js-199900?style=for-the-badge&logo=Leaflet&logoColor=white" width="130" alt="Leaflet.js" />
-        <br><br><b style="color:#F1F5F9;">Leaflet.js Engine</b>
+        <br><br><b style="color:#F1F5F9; font-size:14px;">Geospatial Engine</b>
       </td>
       <td align="center" style="padding: 25px; border-right: 1px solid #1E293B;">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="45" height="45" alt="Git" />
-        <br><br><b style="color:#F1F5F9;">Git VCS</b>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="50" height="50" alt="Git" />
+        <br><br><b style="color:#F1F5F9; font-size:14px;">Version Control</b>
       </td>
       <td align="center" style="padding: 25px;">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="45" height="45" alt="VS Code" />
-        <br><br><b style="color:#F1F5F9;">VS Code IDE</b>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="50" height="50" alt="VS Code" />
+        <br><br><b style="color:#F1F5F9; font-size:14px;">IDE Environment</b>
       </td>
     </tr>
   </table>
@@ -214,61 +169,26 @@ function calculateRouteRisk(pathCoordinates, liveWeather) {
 <br>
 
 <div align="center">
-  <h2 id="-project-directory">📁 Project Directory</h2>
+  <h2>🚀 Rapid Local Deployment</h2>
+  <br>
 </div>
 
-```text
-📦 Smart-Navigation-System
- ┣ 📂 outputs/                 # Application Dashboard UI assets
- ┃ ┣ 📜 dashboard.webp         # Core Interface Preview
- ┣ 📜 .gitignore               # System cache and environment exclusions
- ┣ 📜 README.md                # Enterprise System Documentation (You are here)
- ┣ 📜 requirements.txt         # Data science mapping dependencies
- ┣ 📜 LICENSE                  # MIT Open Source License
- ┣ 📜 index.html               # Main dashboard DOM layout & geographic canvases
- ┣ 📜 style.css                # Glassmorphic UI theme & variables
- ┗ 📜 script.js                # Core JS Logic: Map routing, live updates & simulation
+```bash
+# 1. Clone the intelligence repository
+git clone https://github.com/sathishr-ai/Smart-Navigation-System-for-Accident-Prone-Detection.git
+cd Smart-Navigation-System-for-Accident-Prone-Detection
+
+# 2. Spin up a secure local server to bypass cross-origin restrictions
+python -m http.server 8000
 ```
+**Access Point:** Navigate to `http://localhost:8000/index.html` in any Chromium-based browser.
 
-<br>
-<div align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%">
-</div>
-<br>
+<br><br>
 
-<div align="center">
-  <h2 id="-open-source-contribution">🤝 Open Source Contribution</h2>
-  <p style="color: #94A3B8;"><em>We welcome elite engineers to help us scale the future of global road safety.</em></p>
-  <br>
-  <img src="https://img.shields.io/badge/Contributions-Welcome-3B82F6?style=for-the-badge" alt="Contributions Welcome" />
-  <br><br>
-  <p>Please read our <b>CONTRIBUTING.md</b> for details on our code of conduct, and the process for submitting pull requests to us. We operate on a strict CI/CD pipeline and expect high test coverage for all geospatial logic submissions.</p>
-</div>
-
-<br>
-<div align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%">
-</div>
-<br>
-
-<div align="center">
-  <h2 id="-repository-metrics">📈 Enterprise Activity</h2>
-  <br>
-  <a href="https://star-history.com/#sathishr-ai/Smart-Navigation-System-for-Accident-Prone-Detection&Date">
-    <img src="https://api.star-history.com/svg?repos=sathishr-ai/Smart-Navigation-System-for-Accident-Prone-Detection&type=Date&theme=dark" alt="Star History Chart" width="80%">
-  </a>
-</div>
-
-<br>
-<div align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%">
-</div>
-<br>
-
-<!-- Professional Footer Section -->
+<!-- Minimalist Professional Footer -->
 <div align="center" style="background-color: #0F172A; border: 1px solid #1E293B; border-radius: 16px; padding: 40px; margin-top: 40px; box-shadow: 0 5px 20px rgba(0,0,0,0.4);">
-  <h2>🤝 Architect the Future of Safety</h2>
-  
+  <h2 style="margin-top:0;">🤝 Let's Engineer The Future</h2>
+  <p style="color: #94A3B8;">Open to senior engineering roles and high-impact architectural challenges.</p>
   <br>
 
   <a href="mailto:sathxsh57@gmail.com">
@@ -281,8 +201,7 @@ function calculateRouteRisk(pathCoordinates, liveWeather) {
 
   <br><br><br>
 
-  <img src="https://img.shields.io/badge/Enterprise_Architecture_8.0-Deployed-3B82F6?style=flat-square" />
+  <img src="https://img.shields.io/badge/System-Active-3B82F6?style=flat-square" />
   <br>
-  <p>⭐ <i>"Intelligence powering human safety."</i></p>
-  <p style="font-size: 12px; color: #64748B;">© 2026 Sathish R | Licensed under MIT</p>
+  <p style="font-size: 12px; color: #64748B;">© 2026 Sathish R | Designed for minimal latency, maximum impact.</p>
 </div>
