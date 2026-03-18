@@ -185,23 +185,33 @@ python -m http.server 8000
 
 <br><br>
 
-<!-- Minimalist Professional Footer -->
-<div align="center" style="background-color: #0F172A; border: 1px solid #1E293B; border-radius: 16px; padding: 40px; margin-top: 40px; box-shadow: 0 5px 20px rgba(0,0,0,0.4);">
-  <h2 style="margin-top:0;">🤝 Let's Engineer The Future</h2>
-  <p style="color: #94A3B8;">Open to senior engineering roles and high-impact architectural challenges.</p>
+<!-- Elite Author Section -->
+<div align="center" style="background: linear-gradient(180deg, #0F172A 0%, #080C17 100%); border: 1px solid #1E293B; border-radius: 20px; padding: 50px; margin-top: 40px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
+  <img src="https://github.com/sathishr-ai.png" width="100" style="border-radius: 50%; border: 3px solid #3B82F6; box-shadow: 0 0 20px rgba(59, 130, 246, 0.4); margin-bottom: 15px;" alt="Sathish R Profile" />
+  
+  <h2 style="margin: 0; color: #F1F5F9; font-size: 28px; letter-spacing: 1px;">Architected by Sathish R</h2>
+  <p style="color: #94A3B8; font-size: 16px; max-width: 600px; line-height: 1.6; margin-top: 10px;">
+    Data Scientist & AI Architect specializing in high-performance probabilistic systems, robust ML pipelines, and scalable geographic logic environments.
+  </p>
+  
   <br>
 
-  <a href="mailto:sathxsh57@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact_Sathish-ea4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  <a href="https://sathishr-ai.github.io/My-Data-Analytics-Portfolio/">
+    <img src="https://img.shields.io/badge/🌐_Deploy_Full_Portfolio-%231E293B?style=for-the-badge&color=0F172A" alt="Portfolio" />
   </a>
   &nbsp;
   <a href="https://www.linkedin.com/in/sathish-r-2393412a5">
-    <img src="https://img.shields.io/badge/LinkedIn-Professional_Network-0077b5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/Connect_on_LinkedIn-%230077b5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  &nbsp;
+  <a href="mailto:sathxsh57@gmail.com">
+    <img src="https://img.shields.io/badge/sathxsh57@gmail.com-%23ea4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
 
   <br><br><br>
 
-  <img src="https://img.shields.io/badge/System-Active-3B82F6?style=flat-square" />
+  <img src="https://img.shields.io/badge/Open_to_Senior_Engineering_Roles-3B82F6?style=flat-square" />
   <br>
-  <p style="font-size: 12px; color: #64748B;">© 2026 Sathish R | Designed for minimal latency, maximum impact.</p>
+  <p style="font-size: 13px; color: #475569; margin-top: 15px;">© 2026 Sathish R | Designed for minimal latency, maximum impact.</p>
 </div>
+
