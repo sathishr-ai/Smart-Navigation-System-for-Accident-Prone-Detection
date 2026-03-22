@@ -91,45 +91,45 @@
   <h2 style="letter-spacing: 2px;">ADVANCED SAFETY FEATURES</h2>
   <br>
   
-  <table width="100%" border="0" cellpadding="25" style="background-color: transparent;">
+  <table width="100%" border="0" cellpadding="35" style="background: linear-gradient(135deg, #0F172A 0%, #080C17 100%); border-radius: 20px; border: 1px solid #1E293B; box-shadow: 0 10px 40px rgba(0,0,0,0.5);">
     <!-- Row 1: Image Left, Text Right -->
     <tr>
-      <td width="30%" align="right" valign="middle">
-        <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Police%20Car%20Light.png" alt="Police Car Light" width="100" />
+      <td width="30%" align="right" valign="middle" style="border-bottom: 1px solid #1E293B;">
+        <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Police%20Car%20Light.png" alt="Police Car Light" width="110" />
       </td>
-      <td width="70%" align="left" valign="middle">
-        <h3 style="margin: 0; color: #F1F5F9; font-size: 22px;">Spatial Risk Avoidance</h3>
-        <p style="color: #94A3B8; font-size: 16px; line-height: 1.6; margin-top: 10px;">Dynamically calculates paths by dodging documented blockages, dense traffic, and historical high-risk accident hotspots using aggressive, real-time spatial logic execution.</p>
+      <td width="70%" align="left" valign="middle" style="border-bottom: 1px solid #1E293B;">
+        <h3 style="margin: 0; color: #3B82F6; font-size: 24px;">Spatial Risk Avoidance</h3>
+        <p style="color: #94A3B8; font-size: 16px; line-height: 1.7; margin-top: 10px;">Dynamically calculates paths by dodging documented blockages, dense traffic, and historical high-risk accident hotspots using aggressive, real-time spatial logic execution.</p>
       </td>
     </tr>
     <!-- Row 2: Text Left, Image Right -->
     <tr>
-      <td width="70%" align="right" valign="middle">
-        <h3 style="margin: 0; color: #F1F5F9; font-size: 22px;">Live Environmental Telemetry</h3>
-        <p style="color: #94A3B8; font-size: 16px; line-height: 1.6; margin-top: 10px;">Integrates massive real-time atmospheric constraints directly into the routing node vectors, proactively warning drivers of severe storms, low visibility areas, and slippery roads.</p>
+      <td width="70%" align="right" valign="middle" style="border-bottom: 1px solid #1E293B;">
+        <h3 style="margin: 0; color: #3B82F6; font-size: 24px;">Live Environmental Telemetry</h3>
+        <p style="color: #94A3B8; font-size: 16px; line-height: 1.7; margin-top: 10px;">Integrates massive real-time atmospheric constraints directly into the routing node vectors, proactively warning drivers of severe storms, low visibility areas, and slippery roads.</p>
       </td>
-      <td width="30%" align="left" valign="middle">
-        <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Cloud%20with%20Lightning%20and%20Rain.png" alt="Cloud with Lightning" width="100" />
+      <td width="30%" align="left" valign="middle" style="border-bottom: 1px solid #1E293B;">
+        <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Cloud%20with%20Lightning%20and%20Rain.png" alt="Cloud with Lightning" width="110" />
       </td>
     </tr>
     <!-- Row 3: Image Left, Text Right -->
     <tr>
-      <td width="30%" align="right" valign="middle">
-        <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Hospital.png" alt="Hospital" width="100" />
+      <td width="30%" align="right" valign="middle" style="border-bottom: 1px solid #1E293B;">
+        <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Hospital.png" alt="Hospital" width="110" />
       </td>
-      <td width="70%" align="left" valign="middle">
-        <h3 style="margin: 0; color: #F1F5F9; font-size: 22px;">Critical Incident Response</h3>
-        <p style="color: #94A3B8; font-size: 16px; line-height: 1.6; margin-top: 10px;">Monitors telemetry for sudden stops and features proximity medical assistance plots, instantly locating nearby hospitals and providing one-touch SOS dialing mechanisms.</p>
+      <td width="70%" align="left" valign="middle" style="border-bottom: 1px solid #1E293B;">
+        <h3 style="margin: 0; color: #3B82F6; font-size: 24px;">Critical Incident Response</h3>
+        <p style="color: #94A3B8; font-size: 16px; line-height: 1.7; margin-top: 10px;">Monitors telemetry for sudden stops and features proximity medical assistance plots, instantly locating nearby hospitals and providing one-touch SOS dialing mechanisms.</p>
       </td>
     </tr>
     <!-- Row 4: Text Left, Image Right -->
     <tr>
       <td width="70%" align="right" valign="middle">
-        <h3 style="margin: 0; color: #F1F5F9; font-size: 22px;">Glassmorphic Enterprise UI</h3>
-        <p style="color: #94A3B8; font-size: 16px; line-height: 1.6; margin-top: 10px;">A visually stunning, zero-latency modern web interface driving highly responsive geographic canvases, blur backdrops, gradient overlays, and seamless architecture logic.</p>
+        <h3 style="margin: 0; color: #3B82F6; font-size: 24px;">Glassmorphic Enterprise UI</h3>
+        <p style="color: #94A3B8; font-size: 16px; line-height: 1.7; margin-top: 10px;">A visually stunning, zero-latency modern web interface driving highly responsive geographic canvases, blur backdrops, gradient overlays, and seamless architecture logic.</p>
       </td>
       <td width="30%" align="left" valign="middle">
-        <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" alt="Laptop" width="100" />
+        <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" alt="Laptop" width="110" />
       </td>
     </tr>
   </table>
