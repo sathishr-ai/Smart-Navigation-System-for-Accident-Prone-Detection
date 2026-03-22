@@ -131,12 +131,11 @@
 </div>
 
 ```mermaid
-graph TD;
-    A[Data Ingestion Layer] -->|Historical Crash Stats| B(Risk Scoring Engine);
-    A -->|Live Weather Telemetry| B;
-    B -->|Algorithmic Danger Map| C{Dynamic Path<br>Evaluation};
-    C -->|Avoids Risk Zones| D[Safe Route Render];
-    C -->|Optimizes Distance| D;
+graph TD
+    A[Data Ingestion Layer] -->|Historical Crash Stats| B(Risk Scoring Engine)
+    A -->|Live Weather Telemetry| B
+    B -->|Algorithmic Danger Map| C{Dynamic Path Evaluation}
+    C -->|Avoids Risk Zones & Optimizes Distance| D[Safe Route Render]
     
     style A fill:#0F172A,stroke:#3B82F6,stroke-width:2px,color:#F1F5F9
     style B fill:#0F172A,stroke:#3B82F6,stroke-width:2px,color:#F1F5F9
